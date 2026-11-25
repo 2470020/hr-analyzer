@@ -1,0 +1,55 @@
+:root {
+  --navy-900: #10283f;
+  --navy-800: #173650;
+  --navy-700: #20425b;
+  --navy-600: #40657b;
+  --navy-100: #e8f0f4;
+  --mint-500: #57ad88;
+  --mint-400: #a6f0ce;
+  --mint-100: #e8f7ef;
+  --coral-500: #d76760;
+  --coral-100: #fbe9e7;
+  --blue-500: #5d8fd6;
+  --blue-100: #eaf1fb;
+  --gold-500: #d3ab55;
+  --gold-100: #fbf3df;
+  --ink: #21313b;
+  --muted: #71838c;
+  --surface: #ffffff;
+  --surface-muted: #f6f8f7;
+  --line: #dfe7e5;
+  --sans: Inter, 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--surface-muted);
+  font-family: var(--sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--surface-muted);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button {
+  font-family: inherit;
+}
+
+button:focus-visible,
+tr:focus-visible {
+  outline: 2px solid var(--mint-500);
+  outline-offset: 2px;
+}
